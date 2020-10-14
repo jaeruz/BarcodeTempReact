@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/barcodeTemp/static/css/main.9b2a48be.chunk.css",
+    "main.js": "/barcodeTemp/static/js/main.f5c5e846.chunk.js",
+    "main.js.map": "/barcodeTemp/static/js/main.f5c5e846.chunk.js.map",
+    "runtime-main.js": "/barcodeTemp/static/js/runtime-main.a4d4d052.js",
+    "runtime-main.js.map": "/barcodeTemp/static/js/runtime-main.a4d4d052.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/barcodeTemp/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f9fd370f.chunk.js": "/barcodeTemp/static/js/2.f9fd370f.chunk.js",
+    "static/js/2.f9fd370f.chunk.js.map": "/barcodeTemp/static/js/2.f9fd370f.chunk.js.map",
+    "index.html": "/barcodeTemp/index.html",
+    "precache-manifest.8ef5fcac029b83421293db25da17bd06.js": "/barcodeTemp/precache-manifest.8ef5fcac029b83421293db25da17bd06.js",
+    "service-worker.js": "/barcodeTemp/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/barcodeTemp/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.9b2a48be.chunk.css.map": "/barcodeTemp/static/css/main.9b2a48be.chunk.css.map",
+    "static/js/2.f9fd370f.chunk.js.LICENSE.txt": "/barcodeTemp/static/js/2.f9fd370f.chunk.js.LICENSE.txt",
+    "static/media/tenor.gif": "/barcodeTemp/static/media/tenor.f3300b1a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4d4d052.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.f9fd370f.chunk.js",
+    "static/css/main.9b2a48be.chunk.css",
+    "static/js/main.f5c5e846.chunk.js"
+  ]
+}
