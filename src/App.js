@@ -17,6 +17,7 @@ import AuthContextProvider, { AuthContext } from './context/AuthContext';
 import SignUp from './components/auth/SignUp';
 import About from './components/pages/About';
 import { createBrowserHistory } from 'history';
+import UserProfile from './components/pages/UserProfile';
 
 // import firebase from './config/fbConfig'
 
@@ -79,6 +80,7 @@ function App() {
               <Route path="/scan" component={ScanPage}></Route>
               <Route path="/dashboard" component={Dashboard}></Route>
                 <Route path="/users" component={UserPage}></Route>
+                <Route path="/profile/:id" component={UserProfile}></Route>
                 <Route path="/signup" component={SignUp}></Route>
             </Switch>
              

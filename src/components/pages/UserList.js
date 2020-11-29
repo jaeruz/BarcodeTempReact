@@ -5,8 +5,12 @@ import { FaTrashAlt, FaUserEdit } from 'react-icons/fa';
 import firebase from '../../config/fbConfig'
 
 
-const UserList = ({ editState, users, toggleDelete }) => {
+const UserList = ({ editState, users, toggleDelete,history }) => {
 
+
+    const handleViewProfile = (id) => {
+        history.push('/profile/'+id)
+    }
 
     const deleteUser = (id) => {
         toggleDelete(id)
@@ -44,7 +48,7 @@ const UserList = ({ editState, users, toggleDelete }) => {
                                     </Button>
                                 </div>
                             ) : (
-                                    <Button variant="info" style={{ height: '6.5em', margin: '1px' }}>
+                                    <Button variant="info" style={{ height: '6.5em', margin: '1px' }} onClick={()=>handleViewProfile(user.id)}>
                                         View Profile
                                     </Button>
                                 )}

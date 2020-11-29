@@ -33,7 +33,7 @@ const SignUp = () => {
     if (userProfile != null) {
         if (Object.entries(userProfile).length != 0) {
             return (
-                <Container className='orange-pad'>
+                <Container className='sign-up-pad'>
                     <Row className="justify-content-md-center">
                         <Col lg={10} style={{ padding: '30px', borderRadius: '20px' }}>
                             <h5>Sign Up</h5>

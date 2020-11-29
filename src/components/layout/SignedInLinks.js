@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown,Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import Avatar from 'react-avatar';
-import { FaBarcode } from 'react-icons/fa'
+import { FaQrcode } from 'react-icons/fa'
 
 const SignedInLinks = ({profile}) => {
     const { dispatch, userProfile,currentUser } = useContext(AuthContext)
@@ -46,7 +46,7 @@ const SignedInLinks = ({profile}) => {
          <div style={{ position: "fixed", right: 0, bottom: 0 }}>
               <NavLink to="/scan">
                 <Button variant="light" style={{ borderRadius: '30px 30px 30px 30px', padding: '15px', margin: '20px' }}>
-                  <FaBarcode style={{ fontSize: '30px', color: 'black' }} />
+                  <FaQrcode style={{ fontSize: '30px', color: 'black' }} />
                 </Button>
               </NavLink>
             </div>

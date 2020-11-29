@@ -10,7 +10,7 @@ import UserAdd from './UserAdd';
 import { UserContext } from '../../context/UserContext';
 import { AuthContext } from '../../context/AuthContext';
 Modal.setAppElement('#root');
-const UserPage = () => {
+const UserPage = (props) => {
     const [idQuery, setIdQuery] = useState('')
     const [editState, setEditState] = useState(false)
     const [addState, setAddState] = useState(false)
@@ -182,7 +182,7 @@ const UserPage = () => {
                         </Form>
                         <Container style={{ padding: '30px', marginTop: '30px', backgroundColor: 'white' }}>
                             <h3 className='grey-text'>Results found: {localUsers.length}</h3>
-                            <UserList editState={editState} toggleDelete={toggleDelete} users={localUsers} />
+                            <UserList editState={editState} toggleDelete={toggleDelete} users={localUsers} history={ props.history}/>
                         </Container>
                         {userProfile.isAdmin ? (
                             <div>

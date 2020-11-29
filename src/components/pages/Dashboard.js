@@ -20,8 +20,12 @@ const Dashboard = () => {
             return (
             <Container>
                 <div style={{ marginTop: '100px', backgroundColor: 'white', color: 'black', padding: '50px', borderRadius: '20px' }}>
-                    <h1>Dashboard</h1>    
-                    <h3>Loading...</h3>
+                    <h1>Notifications</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatibus exercitationem itaque consequuntur porro labore nesciunt tempore magnam dolor? Fuga alias praesentium assumenda totam doloribus hic accusamus delectus temporibus ratione?</p>    
+                </div>
+                <div style={{ marginTop: '100px', backgroundColor: 'white', color: 'black', padding: '50px', borderRadius: '20px' }}>
+                    <h1>Activity log</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatibus exercitationem itaque consequuntur porro labore nesciunt tempore magnam dolor? Fuga alias praesentium assumenda totam doloribus hic accusamus delectus temporibus ratione?</p>    
                 </div>
             </Container>)
         }

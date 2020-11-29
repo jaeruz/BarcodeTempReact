@@ -23,7 +23,7 @@ const MyNavbar = ({ setLoginModal}) => {
        
             <Navbar sticky="top" className="MyNav" collapseOnSelect expand="lg" variant="dark">
             <Container>
-                <Navbar.Brand className="nav-brand" as={NavLink} to="/"><FaTemperatureHigh style={{ color: "#FF652F" }} /> Temperature.com</Navbar.Brand>
+                <Navbar.Brand className="nav-brand" as={NavLink} to="/"><FaTemperatureHigh style={{ color: "#FF652F" }} /> P2P Covid-19 Monitoring System</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 {links}
